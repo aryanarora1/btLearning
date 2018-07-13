@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  get 'welcome/Index'
+  get 'home', controller: :home, action: :index
 
   resources :articles do
     resources :comments
   end
 
-  root 'welcome#Index'
+  resources :questions
+
+  root 'home#index'
 end
