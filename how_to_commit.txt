@@ -1,0 +1,8 @@
+Process:
+git status - to check what's changed
+git add . - to stage for commit
+git commit -m 'somemessage' - to commit changes
+git push - to push changes to github
+
+
+git pull - to receive new changes
